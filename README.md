@@ -2,6 +2,14 @@
 
 Gathers shows from the arrs and puts into filter in autobrr.
 
+## Install
+
+Like Autobrr, omegabrr is a single binary just download it and place it within your bin.
+
+For example:
+
+`wget https://github.com/autobrr/omegabrr/releases/download/v1.0.1/omegabrr_1.0.1_linux_x86_64.tar.gz && tar -xf omegabrr*.tar.gz -c /usr/bin/`
+
 ## Config
 
 You can set multiple filters per arr. Find the filter ID by going into the webui and get the ID from the url like `http://localhost:7474/filters/10` where `10` is the filter ID.
